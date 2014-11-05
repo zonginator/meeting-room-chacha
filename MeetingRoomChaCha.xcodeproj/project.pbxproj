@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED078C151A0A280B00A55B77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED078C141A0A280B00A55B77 /* AppDelegate.swift */; };
+		ED078C171A0A280B00A55B77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED078C161A0A280B00A55B77 /* ViewController.swift */; };
+		ED078C1A1A0A280B00A55B77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED078C181A0A280B00A55B77 /* Main.storyboard */; };
+		ED078C1C1A0A280B00A55B77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED078C1B1A0A280B00A55B77 /* Images.xcassets */; };
+		ED078C1F1A0A280B00A55B77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED078C1D1A0A280B00A55B77 /* LaunchScreen.xib */; };
+		ED078C2B1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED078C2A1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED078C251A0A280B00A55B77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED078C071A0A280B00A55B77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED078C0E1A0A280B00A55B77;
+			remoteInfo = MeetingRoomChaCha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED078C0F1A0A280B00A55B77 /* MeetingRoomChaCha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRoomChaCha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED078C131A0A280B00A55B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED078C141A0A280B00A55B77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED078C161A0A280B00A55B77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED078C191A0A280B00A55B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED078C1B1A0A280B00A55B77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED078C1E1A0A280B00A55B77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED078C241A0A280B00A55B77 /* MeetingRoomChaChaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingRoomChaChaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED078C291A0A280B00A55B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED078C2A1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomChaChaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED078C0C1A0A280B00A55B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED078C211A0A280B00A55B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED078C061A0A280B00A55B77 = {
+			isa = PBXGroup;
+			children = (
+				ED078C111A0A280B00A55B77 /* MeetingRoomChaCha */,
+				ED078C271A0A280B00A55B77 /* MeetingRoomChaChaTests */,
+				ED078C101A0A280B00A55B77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED078C101A0A280B00A55B77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED078C0F1A0A280B00A55B77 /* MeetingRoomChaCha.app */,
+				ED078C241A0A280B00A55B77 /* MeetingRoomChaChaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED078C111A0A280B00A55B77 /* MeetingRoomChaCha */ = {
+			isa = PBXGroup;
+			children = (
+				ED078C141A0A280B00A55B77 /* AppDelegate.swift */,
+				ED078C161A0A280B00A55B77 /* ViewController.swift */,
+				ED078C181A0A280B00A55B77 /* Main.storyboard */,
+				ED078C1B1A0A280B00A55B77 /* Images.xcassets */,
+				ED078C1D1A0A280B00A55B77 /* LaunchScreen.xib */,
+				ED078C121A0A280B00A55B77 /* Supporting Files */,
+			);
+			path = MeetingRoomChaCha;
+			sourceTree = "<group>";
+		};
+		ED078C121A0A280B00A55B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED078C131A0A280B00A55B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED078C271A0A280B00A55B77 /* MeetingRoomChaChaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED078C2A1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift */,
+				ED078C281A0A280B00A55B77 /* Supporting Files */,
+			);
+			path = MeetingRoomChaChaTests;
+			sourceTree = "<group>";
+		};
+		ED078C281A0A280B00A55B77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED078C291A0A280B00A55B77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED078C0E1A0A280B00A55B77 /* MeetingRoomChaCha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED078C2E1A0A280B00A55B77 /* Build configuration list for PBXNativeTarget "MeetingRoomChaCha" */;
+			buildPhases = (
+				ED078C0B1A0A280B00A55B77 /* Sources */,
+				ED078C0C1A0A280B00A55B77 /* Frameworks */,
+				ED078C0D1A0A280B00A55B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetingRoomChaCha;
+			productName = MeetingRoomChaCha;
+			productReference = ED078C0F1A0A280B00A55B77 /* MeetingRoomChaCha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED078C231A0A280B00A55B77 /* MeetingRoomChaChaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED078C311A0A280B00A55B77 /* Build configuration list for PBXNativeTarget "MeetingRoomChaChaTests" */;
+			buildPhases = (
+				ED078C201A0A280B00A55B77 /* Sources */,
+				ED078C211A0A280B00A55B77 /* Frameworks */,
+				ED078C221A0A280B00A55B77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED078C261A0A280B00A55B77 /* PBXTargetDependency */,
+			);
+			name = MeetingRoomChaChaTests;
+			productName = MeetingRoomChaChaTests;
+			productReference = ED078C241A0A280B00A55B77 /* MeetingRoomChaChaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED078C071A0A280B00A55B77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Ong";
+				TargetAttributes = {
+					ED078C0E1A0A280B00A55B77 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = YFWXADMX4E;
+					};
+					ED078C231A0A280B00A55B77 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ED078C0E1A0A280B00A55B77;
+					};
+				};
+			};
+			buildConfigurationList = ED078C0A1A0A280B00A55B77 /* Build configuration list for PBXProject "MeetingRoomChaCha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED078C061A0A280B00A55B77;
+			productRefGroup = ED078C101A0A280B00A55B77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED078C0E1A0A280B00A55B77 /* MeetingRoomChaCha */,
+				ED078C231A0A280B00A55B77 /* MeetingRoomChaChaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED078C0D1A0A280B00A55B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED078C1A1A0A280B00A55B77 /* Main.storyboard in Resources */,
+				ED078C1F1A0A280B00A55B77 /* LaunchScreen.xib in Resources */,
+				ED078C1C1A0A280B00A55B77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED078C221A0A280B00A55B77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED078C0B1A0A280B00A55B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED078C171A0A280B00A55B77 /* ViewController.swift in Sources */,
+				ED078C151A0A280B00A55B77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED078C201A0A280B00A55B77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED078C2B1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED078C261A0A280B00A55B77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED078C0E1A0A280B00A55B77 /* MeetingRoomChaCha */;
+			targetProxy = ED078C251A0A280B00A55B77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED078C181A0A280B00A55B77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED078C191A0A280B00A55B77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED078C1D1A0A280B00A55B77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED078C1E1A0A280B00A55B77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED078C2C1A0A280B00A55B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED078C2D1A0A280B00A55B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED078C2F1A0A280B00A55B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MeetingRoomChaCha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED078C301A0A280B00A55B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MeetingRoomChaCha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED078C321A0A280B00A55B77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetingRoomChaChaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRoomChaCha.app/MeetingRoomChaCha";
+			};
+			name = Debug;
+		};
+		ED078C331A0A280B00A55B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MeetingRoomChaChaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeetingRoomChaCha.app/MeetingRoomChaCha";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED078C0A1A0A280B00A55B77 /* Build configuration list for PBXProject "MeetingRoomChaCha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED078C2C1A0A280B00A55B77 /* Debug */,
+				ED078C2D1A0A280B00A55B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED078C2E1A0A280B00A55B77 /* Build configuration list for PBXNativeTarget "MeetingRoomChaCha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED078C2F1A0A280B00A55B77 /* Debug */,
+				ED078C301A0A280B00A55B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED078C311A0A280B00A55B77 /* Build configuration list for PBXNativeTarget "MeetingRoomChaChaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED078C321A0A280B00A55B77 /* Debug */,
+				ED078C331A0A280B00A55B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED078C071A0A280B00A55B77 /* Project object */;
+}
