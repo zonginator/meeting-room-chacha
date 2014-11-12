@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,99 +12,15 @@
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CircleThingy" translatesAutoresizingMaskIntoConstraints="NO" id="sno-Cp-IHB">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <rect key="contentStretch" x="1.3877787807814457e-17" y="0.0" width="1" height="1"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="298" id="nhk-aQ-sQz"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="nhk-aQ-sQz"/>
-                                    </mask>
-                                </variation>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="55" y="155" width="300" height="300"/>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="nhk-aQ-sQz"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b39-kB-Out">
-                                <rect key="frame" x="144" y="42" width="351" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="7xQ-cS-GnF"/>
-                                    <constraint firstAttribute="height" constant="20.5" id="F2a-Ku-awQ"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="7xQ-cS-GnF"/>
-                                        <exclude reference="F2a-Ku-awQ"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="100" y="350" width="200" height="30"/>
-                                    <mask key="constraints">
-                                        <include reference="7xQ-cS-GnF"/>
-                                        <include reference="F2a-Ku-awQ"/>
-                                    </mask>
-                                </variation>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="sno-Cp-IHB" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="7Wo-lH-cgN"/>
-                            <constraint firstItem="b39-kB-Out" firstAttribute="top" secondItem="sno-Cp-IHB" secondAttribute="bottom" constant="32" id="CjE-Kw-kd0"/>
-                            <constraint firstItem="sno-Cp-IHB" firstAttribute="centerX" secondItem="b39-kB-Out" secondAttribute="centerX" id="ODi-3e-6iS"/>
-                            <constraint firstAttribute="centerX" secondItem="b39-kB-Out" secondAttribute="centerX" id="hzD-KM-mBW"/>
-                            <constraint firstItem="sno-Cp-IHB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="iug-La-rhi"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="sno-Cp-IHB"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="7Wo-lH-cgN"/>
-                                <exclude reference="ODi-3e-6iS"/>
-                                <exclude reference="iug-La-rhi"/>
-                                <exclude reference="CjE-Kw-kd0"/>
-                                <exclude reference="hzD-KM-mBW"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="sno-Cp-IHB"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="7Wo-lH-cgN"/>
-                                <include reference="ODi-3e-6iS"/>
-                                <include reference="iug-La-rhi"/>
-                                <include reference="CjE-Kw-kd0"/>
-                                <include reference="hzD-KM-mBW"/>
-                            </mask>
-                        </variation>
                     </view>
-                    <connections>
-                        <outlet property="AlexLabel" destination="b39-kB-Out" id="R55-el-Tdv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-77.25" y="135.75"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="CircleThingy" width="197" height="184"/>
-    </resources>
 </document>

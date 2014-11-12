@@ -7,16 +7,26 @@
 //
 
 import UIKit
+import SpriteKit
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var AlexLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        AlexLabel.text = "Hello Alex!"
-        AlexLabel.textColor = UIColor.redColor()
-        AlexLabel.textAlignment = NSTextAlignment.Center
-        // Do any additional setup after loading the view, typically from a nib.
+
+        var spriteView = self.view as SKView
+        
+        spriteView.showsDrawCount = true
+        spriteView.showsNodeCount = true
+        spriteView.showsFPS = true
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        var hello:HelloScene = HelloScene(size: view.bounds.size)
+        var spriteView:SKView = self.view as SKView
+        
+        spriteView.presentScene(hello)
     }
 
     override func didReceiveMemoryWarning() {
