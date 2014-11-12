@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var AlexLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        AlexLabel.text = "Hello Alex!"
+        AlexLabel.textColor = UIColor.redColor()
+        AlexLabel.textAlignment = NSTextAlignment.Center
         // Do any additional setup after loading the view, typically from a nib.
     }
 
