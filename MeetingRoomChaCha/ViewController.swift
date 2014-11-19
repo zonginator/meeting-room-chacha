@@ -11,7 +11,6 @@ import SpriteKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var AlexLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
