@@ -12,7 +12,7 @@ class HelloScene : SKScene {
     var contentCreated:Bool = false
 
     let office = SKSpriteNode(imageNamed: "office")
-    var scale = CGFloat(0.5)
+    var scale = CGFloat(1.0)
 
     override init(size: CGSize) {
         super.init(size: size)
@@ -30,18 +30,17 @@ class HelloScene : SKScene {
 
         addChild(office)
         createSceneContents()
-    }
-    
-    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
-        var touch = touches.anyObject() as UITouch
-        var yDelta = touch.locationInView(self.view).y - touch.previousLocationInView(self.view).y
         
-        scale += (yDelta/100)
-        office.setScale(scale)
+        self.view?.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: Selector("doIt:")))
     }
     
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
-        println("touch me!")
+    func doIt(gesture: UIPinchGestureRecognizer) {
+        println((gesture.scale))
+        println((gesture.velocity))
+
+        scale += gesture.velocity/40
+        
+        office.setScale(scale)
     }
     
     func createSceneContents() {

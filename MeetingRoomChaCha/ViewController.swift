@@ -16,6 +16,8 @@ class ViewController: UIViewController {
 
         var spriteView = self.view as SKView
         
+        spriteView.multipleTouchEnabled = true
+        
         spriteView.showsDrawCount = true
         spriteView.showsNodeCount = true
         spriteView.showsFPS = true
