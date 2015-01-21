@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        var hello:HelloScene = HelloScene(size: view.bounds.size)
+        var hello: OfficeLayoutScene = HelloScene(size: view.bounds.size)
         var spriteView:SKView = self.view as SKView
         
         spriteView.presentScene(hello)

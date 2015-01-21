@@ -1,5 +1,5 @@
 //
-//  HelloScene.swift
+//  OfficeLayoutScene.swift
 //  MeetingRoomChaCha
 //
 //  Created by Alex Ong on 12/11/2014.
@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-class HelloScene : SKScene {
+class OfficeLayoutScene: SKScene {
     var contentCreated:Bool = false
 
     let office = SKSpriteNode(imageNamed: "office")
@@ -32,13 +32,12 @@ class HelloScene : SKScene {
         createSceneContents()
         
         self.view?.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: Selector("zoom:")))
-
-        var panGestureRecognizer = UIPanGestureRecognizer(target: self, action: Selector("move:"))
+        var panGestureRecognizer = UIPanGestureRecognizer(target: self, action: Selector("pan:"))
         panGestureRecognizer.minimumNumberOfTouches = 1
         self.view?.addGestureRecognizer(panGestureRecognizer)
     }
     
-    func move(gesture: UIPanGestureRecognizer) {
+    func pan(gesture: UIPanGestureRecognizer) {
         println("Moving!")
 
         var velocity = gesture.velocityInView(gesture.view)

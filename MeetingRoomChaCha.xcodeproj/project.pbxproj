@@ -14,7 +14,7 @@
 		ED078C1F1A0A280B00A55B77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED078C1D1A0A280B00A55B77 /* LaunchScreen.xib */; };
 		ED078C2B1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED078C2A1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift */; };
 		ED2FEF761A13641700E424D1 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2FEF751A13641700E424D1 /* SpriteKit.framework */; };
-		ED2FEF781A13656300E424D1 /* HelloScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF771A13656300E424D1 /* HelloScene.swift */; };
+		ED2FEF781A13656300E424D1 /* OfficeLayoutScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FEF771A13656300E424D1 /* OfficeLayoutScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,7 @@
 		ED078C291A0A280B00A55B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED078C2A1A0A280B00A55B77 /* MeetingRoomChaChaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingRoomChaChaTests.swift; sourceTree = "<group>"; };
 		ED2FEF751A13641700E424D1 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
-		ED2FEF771A13656300E424D1 /* HelloScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloScene.swift; sourceTree = "<group>"; };
+		ED2FEF771A13656300E424D1 /* OfficeLayoutScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfficeLayoutScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				ED078C141A0A280B00A55B77 /* AppDelegate.swift */,
-				ED2FEF771A13656300E424D1 /* HelloScene.swift */,
+				ED2FEF771A13656300E424D1 /* OfficeLayoutScene.swift */,
 				ED078C161A0A280B00A55B77 /* ViewController.swift */,
 				ED078C181A0A280B00A55B77 /* Main.storyboard */,
 				ED078C1B1A0A280B00A55B77 /* Images.xcassets */,
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2FEF781A13656300E424D1 /* HelloScene.swift in Sources */,
+				ED2FEF781A13656300E424D1 /* OfficeLayoutScene.swift in Sources */,
 				ED078C171A0A280B00A55B77 /* ViewController.swift in Sources */,
 				ED078C151A0A280B00A55B77 /* AppDelegate.swift in Sources */,
 			);
