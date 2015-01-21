@@ -24,10 +24,10 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
-        var hello: OfficeLayoutScene = HelloScene(size: view.bounds.size)
+        var officeLayoutScene: OfficeLayoutScene = OfficeLayoutScene(size: view.bounds.size)
         var spriteView:SKView = self.view as SKView
         
-        spriteView.presentScene(hello)
+        spriteView.presentScene(officeLayoutScene)
     }
 
     override func didReceiveMemoryWarning() {
