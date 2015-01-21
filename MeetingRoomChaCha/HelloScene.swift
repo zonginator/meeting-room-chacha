@@ -31,10 +31,29 @@ class HelloScene : SKScene {
         addChild(office)
         createSceneContents()
         
-        self.view?.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: Selector("doIt:")))
+        self.view?.addGestureRecognizer(UIPinchGestureRecognizer(target: self, action: Selector("zoom:")))
+
+        var panGestureRecognizer = UIPanGestureRecognizer(target: self, action: Selector("move:"))
+        panGestureRecognizer.minimumNumberOfTouches = 1
+        self.view?.addGestureRecognizer(panGestureRecognizer)
     }
     
-    func doIt(gesture: UIPinchGestureRecognizer) {
+    func move(gesture: UIPanGestureRecognizer) {
+        println("Moving!")
+
+        var velocity = gesture.velocityInView(gesture.view)
+        println("x: \(velocity.x) y:\(velocity.y)")
+
+        var newX = (0.03 * velocity.x)
+        var newY = (-0.03 * velocity.y)
+        
+        var vector = CGVector(dx: newX, dy: newY)
+        var movementAction = SKAction.moveBy(vector, duration: 0.001)
+        
+        office.runAction(movementAction)
+    }
+    
+    func zoom(gesture: UIPinchGestureRecognizer) {
         println((gesture.scale))
         println((gesture.velocity))
 
