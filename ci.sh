@@ -1,3 +1,3 @@
 #!/bin/sh
 
-xcodebuild clean test install -scheme MeetingRoomChaCha -destination OS=8.1,name="iPhone 6"
+xctool -project MeetingRoomChaCha.xcodeproj -scheme Build -sdk iphonesimulator8.1 build test
