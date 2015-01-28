@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: MeetingRoomChaCha.xcodeproj
+xcode_scheme: Build
