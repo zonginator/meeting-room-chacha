@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var spriteView = self.view as SKView
+        var spriteView = self.view as! SKView
         
         spriteView.multipleTouchEnabled = true
         
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         var officeLayoutScene: OfficeLayoutScene = OfficeLayoutScene(size: view.bounds.size)
-        var spriteView:SKView = self.view as SKView
+        var spriteView:SKView = self.view as! SKView
         
         spriteView.presentScene(officeLayoutScene)
     }

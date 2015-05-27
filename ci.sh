@@ -1,3 +1,3 @@
 #!/bin/sh
 
-xctool -project MeetingRoomChaCha.xcodeproj -scheme Build -sdk iphonesimulator8.1 clean build test
+xctool -project MeetingRoomChaCha.xcodeproj -scheme Build -sdk iphonesimulator8.3 clean build test

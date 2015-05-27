@@ -12,7 +12,7 @@ class OfficeLayoutScene: SKScene {
     var contentCreated:Bool = false
 
     let office = SKSpriteNode(imageNamed: "office")
-    var scale = CGFloat(1.0)
+    var myScale = CGFloat(1.0)
 
     override init(size: CGSize) {
         super.init(size: size)
@@ -26,7 +26,7 @@ class OfficeLayoutScene: SKScene {
     
     override func didMoveToView(view: SKView) {
         office.position = CGPoint(x: size.width * 0.5, y: size.height * 0.7)
-        office.setScale(scale)
+        office.setScale(myScale)
 
         addChild(office)
         createSceneContents()
@@ -56,9 +56,9 @@ class OfficeLayoutScene: SKScene {
         println((gesture.scale))
         println((gesture.velocity))
 
-        scale += gesture.velocity/40
+        myScale += gesture.velocity/40
         
-        office.setScale(scale)
+        office.setScale(myScale)
     }
     
     func createSceneContents() {
