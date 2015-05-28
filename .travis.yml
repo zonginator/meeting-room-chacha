@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: MeetingRoomChaCha.xcodeproj
 xcode_scheme: Build
-xcode_sdk: iphonesimulator8.1
+xcode_sdk: iphonesimulator8.3
