@@ -2,3 +2,4 @@ language: objective-c
 xcode_project: MeetingRoomChaCha.xcodeproj
 xcode_scheme: Build
 xcode_sdk: iphonesimulator8.3
+osx_image: beta-xcode6.3
